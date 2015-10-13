@@ -1,3 +1,4 @@
+body{background:black;}
 div {
   color:white;
   background-color: black;
@@ -7,12 +8,12 @@ div {
     font-family: Ariel, "halvetica neue", Halvetica, sans-serif;
     text-align:left;    
 }
-    .a1{display:block; }
-    .a2{ display:block;}
-    .a3{ display:block;}
-    .a4{ display:block;}
-    .a5{ display:block;}
-    .a6{ display:block;}
+    .a1{display:none;}
+    .a2{ display:none;}
+    .a3{ display:none;}
+    .a4{ display:none;}
+    .a5{ display:none;}
+    .a6{ display:none;}
 @media (min-width:1000px) and (max-width:1200px) {
     .a1{display:block; }
     .a2{ display:none;}
