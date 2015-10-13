@@ -3,42 +3,82 @@ div {
   background-color: black;
   padding 10px;
     font-family: Ariel, "halvetica neue", Halvetica, sans-serif;
-
-    text-align:center;
+    text-align:left;    
 }
+    .a1{display:block; }
+    .a2{ display:block;}
+    .a3{ display:block;}
+    .a4{ display:block;}
+    .a5{ display:block;}
+    .a6{ display:block;}
 @media (min-width:1000px) and (max-width:1200px) {
-    .1{display:inherit; }
-    .2{ display:none;}
-    .3{ display:none;}
-    .4{ display:none;}
-    .5{ display:none;}
-    .6{ display:none;}
+    .a1{display:block; }
+    .a2{ display:none;}
+    .a3{ display:none;}
+    .a4{ display:none;}
+    .a5{ display:none;}
+    .a6{ display:none;}
 div {
     background-color: red;
-
+    padding:10px;
   }
 }
 @media (min-width:800px) and (max-width:1000px) {
-  div {
+    .a1{display:inherit; }
+    .a2{ display:inherit;}
+    .a3{ display:none;}
+    .a4{ display:none;}
+    .a5{ display:none;}
+    .a6{ display:none;}
+    div {
     background-color: green;
+       padding:10px;
   }
 }
 @media (min-width:700px) and (max-width:800px) {
+    .a1{display:inherit; }
+    .a2{ display:inherit;}
+    .a3{ display:inherit;}
+    .a4{ display:none;}
+    .a5{ display:none;}
+    .a6{ display:none;}
   div {
     background-color: blue;
+       padding:10px;
   }
 }
 @media (min-width:600px) and (max-width:700px) {
+    .a1{display:inherit; }
+    .a2{ display:inherit;}
+    .a3{ display:inherit;}
+    .a4{ display:inherit;}
+    .a5{ display:none;}
+    .a6{ display:none;}
   div {
     background-color: purple;
+       padding:10px;
   }
 }
-@media (min-width:450px) and (max-width:600px) {
+@media (min-width:500px) and (max-width:600px) {
+    .a1{display:inherit; }
+    .a2{ display:inherit;}
+    .a3{ display:inherit;}
+    .a4{ display:inherit;}
+    .a5{ display:inherit;}
+    .a6{ display:none;}
   div {
     background-color: gray;
+       padding:10px;
   }
-    @media (min-width:320px) and (max-width:420px) {
+    @media (min-width:320px) and (max-width:500px) {
+    .a1{ display:inherit;}
+    .a2{ display:inherit;}
+    .a3{ display:inherit;}
+    .a4{ display:inherit;}
+    .a5{ display:inherit;}
+    .a6{ display:inherit;}
   div {
-    background-color: gray;
+    background-color: sandybrown;
+       padding:10px;
   }
 }
